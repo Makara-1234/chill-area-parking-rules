@@ -192,6 +192,7 @@ export default function App() {
 
         <footer className="footer">
           <div className="footer-brand"><img src={chillAreaLogo} alt="" /> <span>CHILL AREA</span></div>
+          <p>Developed by Vorn Norin_NorinMakara</p>
           <ChevronRight size={14} />
           <span>{t.footer}</span>
           <span className="footer-year">© {new Date().getFullYear()}</span>
